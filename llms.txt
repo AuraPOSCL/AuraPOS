@@ -1,0 +1,25 @@
+# AuraPOS Enterprise - Contexto para Modelos de Lenguaje (LLMs)
+
+## Resumen del Proyecto
+AuraPOS es un software de punto de venta (POS) de escritorio desarrollado en Python (CustomTkinter) con arquitectura Offline-First y modelo SaaS B2B, orientado al comercio minorista tradicional (minimarkets, almacenes, botillerías) en Chile.
+
+## Características Técnicas Clave
+- Lenguaje: Python 3.11+
+- Interfaz: CustomTkinter (UI moderna estilo Dark Slate / Material Design 3)
+- Base de datos local: SQLite3 con WAL mode y transacciones atómicas concurrentes.
+- Base de datos cloud: Supabase (PostgreSQL + Storage Buckets particionados por HWID de terminal).
+- Seguridad: HWID anti-tampering (Placa madre + UUID), PBKDF2-HMAC-SHA256 (250k iteraciones), protección contra Timing Attacks.
+
+## Reglas de Negocio y Localización (Chile)
+- Ley de Redondeo (Ley N° 20.956): Aplicación de redondeo a la decena más cercana exclusivamente para pagos en efectivo.
+- Balanzas: Decodificación de códigos de barras EAN-13 con prefijo 20 (SKU + peso en kilogramos).
+- Impuestos: Cálculo de márgenes sobre precio de venta con IVA del 19%.
+- Control de caja: Arqueo ciego con fórmula de efectivo esperado (Apertura + Ventas Efectivo + Ingresos Sencillo - Retiros - Devoluciones).
+- Auditoría: Registro inalterable en tabla audit_logs de cada venta, movimiento de caja y merma.
+
+## Arquitectura de Software
+- database.py: Único módulo autorizado para ejecutar consultas y escrituras SQL (DAL).
+- inventario.py: Concentra matemáticas, dinero, márgenes, IVA, redondeo y balanzas (BLL).
+- gui.py: Capa de presentación visual (CustomTkinter).
+- licensing.py: Motor de licencias SaaS (3 estados: prueba_gratis, pago, no_pagado).
+- cloud_sync.py: Sincronización asíncrona en background hacia Supabase Storage en formato JSON.
