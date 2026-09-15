@@ -1,4 +1,4 @@
-# Aura SmartPOS v1.0 Enterprise 🚀
+# Aura POS v1.0 Enterprise 🚀
 > **El Sistema de Punto de Venta (POS) Offline-First definitivo para el retail tradicional y almacenes de barrio en Chile.**
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
@@ -8,8 +8,8 @@
 
 ---
 
-## 💡 ¿Qué es Aura SmartPOS?
-**Aura SmartPOS** es un software de escritorio comercializado como **SaaS B2B**, diseñado específicamente para minimarkets, almacenes de barrio, panaderías y botillerías en Chile. A diferencia de los POS tradicionales basados 100% en la nube (que colapsan y dejan de vender cuando falla la conexión a internet), AuraPOS opera bajo una arquitectura **Offline-First indestructible**.
+## 💡 ¿Qué es Aura POS?
+**Aura POS** es un software de escritorio comercializado como **SaaS B2B**, diseñado específicamente para minimarkets, almacenes de barrio, panaderías y botillerías en Chile. A diferencia de los POS tradicionales basados 100% en la nube (que colapsan y dejan de vender cuando falla la conexión a internet), AuraPOS opera bajo una arquitectura **Offline-First indestructible**.
 
 ---
 
