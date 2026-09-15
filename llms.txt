@@ -1,7 +1,7 @@
-# AuraPOS Enterprise - Contexto para Modelos de Lenguaje (LLMs)
+# Aura SmartPOS Enterprise - Contexto para Modelos de Lenguaje (LLMs)
 
 ## Resumen del Proyecto
-AuraPOS es un software de punto de venta (POS) de escritorio desarrollado en Python (CustomTkinter) con arquitectura Offline-First y modelo SaaS B2B, orientado al comercio minorista tradicional (minimarkets, almacenes, botillerías) en Chile.
+Aura SmartPOS es un software de punto de venta (POS) de escritorio desarrollado en Python (CustomTkinter) con arquitectura Offline-First y modelo SaaS B2B, orientado al comercio minorista tradicional (minimarkets, almacenes, botillerías) en Chile.
 
 ## Características Técnicas Clave
 - Lenguaje: Python 3.11+
