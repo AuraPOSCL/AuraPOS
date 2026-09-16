@@ -77,11 +77,11 @@
 
 ---
 
-## 💻 Requisitos del Sistema (Ultra-Ligeros)
+## 💻 Requisitos del Sistema
 
 AuraPOS fue diseñado con ingeniería de bajo consumo (C++ nativo y SQLite WAL), permitiendo una velocidad instantánea incluso en computadores antiguos, pantallas táctiles de mesón y equipos reacondicionados de bajos recursos.
 
-| Componente | Requisitos Mínimos (Para equipos antiguos) | Requisitos Recomendados |
+| Componente | Requisitos Mínimos | Requisitos Recomendados |
 | :--- | :--- | :--- |
 | **Memoria RAM** | **2 GB RAM** *(Consumo real de AuraPOS: ~140 MB, hasta 10 veces más liviano que sistemas web)* | **4 GB - 8 GB RAM** |
 | **Procesador (CPU)** | Intel Celeron, Intel Atom, AMD E-Series o Core 2 Duo (1.6 GHz Dual-Core) | Intel Core i3 / AMD Ryzen o superior |
@@ -91,7 +91,7 @@ AuraPOS fue diseñado con ingeniería de bajo consumo (C++ nativo y SQLite WAL),
 | **Periféricos** | Teclado y mouse USB | Lector de código de barras USB y/o Impresora térmica |
 | **Conexión a Internet** | **Cero para vender.** Funciona desconectado de la red todo el día. | Conexión esporádica (Wi-Fi/móvil) para sincronización |
 
-> 🚀 **Ventaja frente a la competencia:** Los sistemas basados en navegador web (Chrome) o Electron saturan la memoria y exigen mínimo 4 GB o 8 GB de RAM para no quedarse pegados. AuraPOS corre sobre código de máquina nativo, garantizando que una máquina modesta de almacén vuele a máxima velocidad.
+> 🚀 **Ventaja frente a la competencia:** Los sistemas basados en navegador web (Chrome) o Electron saturan la memoria y exigen mínimo 4 GB o 8 GB de RAM para no quedarse pegados. AuraPOS corre sobre código de máquina nativo, garantizando que una máquina modesta vuele a máxima velocidad.
 
 ## 📞 Contacto y Desarrollo
 * **GitHub Organization:** [@AuraPOSCL](https://github.com/AuraPOSCL)
