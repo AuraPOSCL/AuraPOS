@@ -61,12 +61,32 @@
 
 ---
 
-## 🗺️ Roadmap & Futuras Actualizaciones (v1.1)
-- [ ] **Sincronización Multicaja:** Interconexión en red local entre múltiples terminales de cobro.
-- [ ] **Pasarela de Pagos Automática (Aura Store):** Compra y activación en caliente de add-ons mediante Webhooks (Flow / Mercado Pago).
-- [ ] **Integración Transbank POS (Serial/USB):** Envío automático de montos directos al pinpad.
-- [ ] **Puente API Boleta Electrónica SII (DTE):** Emisión legal de documentos tributarios electrónicos.
+## 🤝 Soporte Técnico y Acompañamiento (100% Gratuito)
 
+Sabemos que en un negocio de barrio cada minuto cuenta y la caja no puede detenerse. No usamos sistemas lentos de tickets por correo:
+
+* 💬 **Atención Personal por WhatsApp:** Comunicación directa con el equipo técnico para resolver dudas operativas al instante.
+* 🖥️ **Soporte Remoto Inmediato vía AnyDesk:** Si tienes un problema con la impresora, la base de datos o un producto, nos conectamos remotamente a tu pantalla mediante AnyDesk y lo solucionamos en minutos frente a tus ojos.
+* 🛡️ **Costo Cero:** El soporte técnico remoto, la resolución de incidencias y el acompañamiento inicial son **100% gratuitos**, incluidos en tu suscripción sin cobros extra por llamada.
+  
+---
+
+## 🗺️ Roadmap Oficial: Próxima Actualización v1.1 (Inicios de Octubre 2026)
+
+AuraPOS evoluciona de forma constante. La versión **1.1 Enterprise** ya está en desarrollo activo y llegará a inicios del próximo mes con las dos integraciones más esperadas del mercado:
+
+- [ ] **Facturación Electrónica SII (DTE):** Emisión legal directa de Boletas Electrónicas de Ventas y Servicios autorizadas por el Servicio de Impuestos Internos, con timbre fiscal impreso en el ticket térmico.
+- [ ] **Integración Transbank POS Integrado (Serial/USB):** Envío automático del monto de la venta directo a la maquinita POS (Verifone/Ingenico), evitando errores de tipeo manual de los cajeros.
+- [ ] **Protección Anti-Desinstalación de Datos:** Persistencia blindada de la base de datos local en actualizaciones de software.
+
+---
+
+## 🎁 Beneficio Exclusivo de Fidelización (Hardware Incluido)
+
+El entorno óptimo para exprimir la velocidad de AuraPOS es con un lector de códigos de barras. Por eso premiamos la lealtad de tu negocio:
+
+> 🏆 **Lector de Códigos de Barra de Regalo:**  
+> Al cumplir tu **6to mes de suscripción activa continua**, te enviamos a tu local un **Lector de Códigos de Barra USB (1D/2D)** completamente **gratis**, sin costos de equipo ni arriendos ocultos.
 ---
 
 ## 🛠️ Stack Tecnológico
