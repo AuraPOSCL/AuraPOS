@@ -77,6 +77,23 @@
 
 ---
 
+## 💻 Requisitos del Sistema
+
+AuraPOS está altamente optimizado mediante compilación nativa en C++ (Nuitka) y un motor SQLite WAL ligero, permitiendo su ejecución fluida incluso en computadores de bajos recursos o equipos reacondicionados de mesón.
+
+| Componente | Requisitos Mínimos | Requisitos Recomendados |
+| :--- | :--- | :--- |
+| **Sistema Operativo** | Windows 10 (64-bit) | Windows 10 / Windows 11 (64-bit) |
+| **Procesador (CPU)** | Intel Celeron, Core 2 Duo o Intel Core i3 (4ta Gen o superior) / 2 núcleos @ 2.0 GHz | Intel Core i3 (8va Gen o superior) / AMD Ryzen 3 / 4 núcleos @ 2.5 GHz o superior |
+| **Memoria RAM** | **4 GB RAM** *(El software consume menos de 180 MB en ejecución)* | **8 GB RAM** |
+| **Almacenamiento** | 500 MB libres en Disco Rígido (HDD) | **1 GB libre en Disco de Estado Sólido (SSD)** *(Recomendado para escrituras WAL instantáneas)* |
+| **Resolución de Pantalla** | 1366 x 768 px (HD) | 1920 x 1080 px (Full HD) |
+| **Puertos de Conexión** | 2 puertos USB 2.0 disponibles | 3 o más puertos USB (USB 3.0 para periféricos simultáneos) |
+| **Periféricos Soportados** | Lector de código de barras USB (1D/2D) y teclado físico | Lector de barras, Impresora térmica USB (58mm/80mm ESC/POS) y Gaveta de dinero |
+| **Conexión a Internet** | **No requerida para operar en el día a día.** *(Requiere conexión puntual para instalación inicial y validación periódica)* | Conexión Wi-Fi o Ethernet esporádica para telemetría asíncrona en segundo plano |
+
+> 📌 **Nota sobre compatibilidad:** AuraPOS no requiere servidores locales dedicados, licencias de bases de datos de terceros ni dependencias externas de Python para funcionar. El instalador empaqueta todos los controladores y librerías en un único paquete autónomo.
+
 ## 📞 Contacto y Desarrollo
 * **GitHub Organization:** [@AuraPOSCL](https://github.com/AuraPOSCL)
 * **Desarrollo Enterprise Offline-First**
